@@ -1,0 +1,45 @@
+Problem:    noelQAEZE_leoMEILLIER_q3
+Rows:       8
+Columns:    6 (3 integer, 3 binary)
+Non-zeros:  18
+Status:     INTEGER OPTIMAL
+Objective:  Gain = 599500.7143 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Gain                   599501                             
+     2 JourProduction
+                                  30                          30 
+     3 Activation[1]
+                            -1511.95                          -0 
+     4 Activation[2]
+                                   0                          -0 
+     5 Activation[3]
+                                   0                          -0 
+     6 MinimumActivation[1]
+                             2809.05            -0               
+     7 MinimumActivation[2]
+                                3948            -0               
+     8 MinimumActivation[3]
+                                5463            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 c[1]                  2809.05             0          4321 
+     2 c[2]                     3948             0          3948 
+     3 c[3]                     5463             0          5463 
+     4 y[1]         *              1             0             1 
+     5 y[2]         *              1             0             1 
+     6 y[3]         *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

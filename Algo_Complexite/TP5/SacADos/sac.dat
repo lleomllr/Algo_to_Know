@@ -1,0 +1,20 @@
+data; 
+
+param n := 5; 
+param capMax := 11; 
+
+param pObj := 
+1 1
+2 2
+3 5
+4 6
+5 7;
+
+param val := 
+1 1
+2 6
+3 18 
+4 22
+5 28; 
+
+end; 
